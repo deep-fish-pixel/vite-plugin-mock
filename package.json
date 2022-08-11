@@ -1,6 +1,6 @@
 {
-  "name": "@vitejs/plugin-mock",
-  "version": "1.0.0",
+  "name": "vite-plugin-es6-mock",
+  "version": "1.0.1",
   "description": "vite mock data",
   "main": "src/index.js",
   "scripts": {

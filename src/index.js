@@ -1,6 +1,6 @@
-import es6Mock from 'es6-mock';
+const es6Mock = require('es6-mock');
 
-export default function vitePluginMock(config) {
+module.exports = function vitePluginMock(config) {
   const { dir, path } = config;
   return {
     name: 'vite:mock',
