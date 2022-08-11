@@ -1,0 +1,39 @@
+{
+  "name": "@vitejs/plugin-mock",
+  "version": "1.0.0",
+  "description": "vite mock data",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node test/index.js",
+    "debug": "node --inspect test/index.js",
+    "pub": "sh publish.sh",
+    "test": "node ./test/test/testAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deep-fish-pixel/vite-plugin-mock.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "mock",
+    "mockdata",
+    "mockjs",
+    "mockjson",
+    "mockesm",
+    "mockimport",
+    "mockexport",
+    "mockSimple",
+    "mockEasy"
+  ],
+  "author": "deepFish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deep-fish-pixel/vite-plugin-mock/issues"
+  },
+  "homepage": "https://github.com/deep-fish-pixel/vite-plugin-mock#readme",
+  "dependencies": {
+    "es6-mock": "^2.7.2"
+  },
+  "devDependencies": {}
+}
