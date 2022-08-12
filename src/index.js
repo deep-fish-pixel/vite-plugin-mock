@@ -1,7 +1,7 @@
 const es6Mock = require('es6-mock');
 
 module.exports = function vitePluginMock(config) {
-  const { dir, path } = config;
+  const { dir, path } = config || {};
   return {
     name: 'vite:mock',
     configureServer(server) {
